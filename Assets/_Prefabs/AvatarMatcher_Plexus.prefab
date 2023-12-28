@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4821698482378260075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4821698482378260077}
+  - component: {fileID: 4821698482378260074}
+  - component: {fileID: 4530065793555065719}
+  m_Layer: 0
+  m_Name: AvatarMatcher_Plexus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821698482378260077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821698482378260075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4821698482378260074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821698482378260075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243b01ef97e8ecb40b0d023858d3aa46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCubeman: 1
+  autoFindMainCamera: 1
+  avatarModel: {fileID: 5894244686919659056, guid: e727df973675e7141bc900df8c8ec5d7, type: 3}
+  smoothFactor: 10
+  posRelativeToCamera: {fileID: 0}
+  mirroredMovement: 1
+  verticalMovement: 1
+  horizontalMovement: 1
+  groundedFeet: 1
+  applyMuscleLimits: 1
+--- !u!114 &4530065793555065719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821698482378260075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1110403c3da98cb4293b0d257ef86d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plexAgents: []
+  maxDist: 1
+  widthScale: 0.01
